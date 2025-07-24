@@ -209,4 +209,4 @@ This project is open source and available under the [MIT License](LICENSE).
 
 ⭐ **Star this repository if you found it helpful!**
 
-*Built with ❤️ as a first step into the world of Data Science*
+
