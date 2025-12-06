@@ -1,44 +1,60 @@
-# DataScience
+# Data-Science
 
-A collection of Data Science experiments, projects, and explorations. This repository contains various notebooks and scripts showcasing techniques, ideas, and learning journeys in data science.
-
-## Repository Overview
-
-This repository mainly features work in Jupyter Notebook format (98.3%), with supporting Python scripts (1.7%). It is a place to try out new concepts, implement models, and document findings in the field of data science.
+This repository contains a collection of data science experiments and projects that I (Azan Wasty) have worked on. The focus is on exploring various machine learning algorithms and data analysis techniques using real-world datasets. The primary language used is Jupyter Notebook, with some supporting scripts in Python.
 
 ## Contents
 
-- **Jupyter Notebooks**: Interactive and exploratory analyses, visualizations, and model-building experiments.
-- **Python Scripts**: Utility scripts, data preprocessing, and other supporting code.
+- **Jupyter Notebooks:**
+  - `BayesSpamPredictionModel.ipynb`: Implements a Naive Bayes classifier to predict spam messages.
+  - `DBSCAN.ipynb`: Demonstrates the DBSCAN clustering algorithm.
+  - `DiabeticPatientAnalysis.ipynb`: Data analysis and modeling for diabetic patient datasets.
+  - `K-Means.ipynb`: Explores the K-Means clustering technique.
+  - `KNNs.ipynb`: K-Nearest Neighbors algorithm application and analysis.
+  - `LifeExpectancyAnalysis.ipynb`: Analyzes life expectancy factors using a provided dataset.
+  - `LinearRegression.ipynb`: Linear regression modeling and interpretation.
+  - `ModelEvaluations.ipynb`: Evaluates machine learning models and metrics.
+  - `NN_imageProcessing.ipynb`: Application of neural networks on image data.
+  - `NeuralNetworks.ipynb`: Basic neural networks implementations and experiments.
+  - `TitanicDataset_knn.ipynb`: KNN analysis on the Titanic dataset.
 
-## Possible Topics
+- **Python Scripts:**
+  - `PlayerPerformanceAnalysis.py`: Analyzes football player performance.
 
-While the content may evolve, you might find examples of:
-- Data cleaning and preprocessing
-- Exploratory Data Analysis (EDA)
-- Machine Learning models and algorithms
-- Data visualization techniques
-- Experimentation with datasets and tools
+- **Datasets:**
+  - `K-Means.csv`, `KNNs.csv`, `Life_Expectancy_Data.csv`, `LinearRegression.csv`, `Titanic-Dataset.csv`, `cancer.csv`, `diabetes.csv`, `eafc.csv`, `iris.csv`, `spambase.data`: Datasets used for training, testing, and demonstration.
+  
+- **Other Files:**
+  - `.gitattributes`, `.gitignore`: Repository configuration files.
+  - `README.md`: This documentation file.
 
 ## Getting Started
 
-1. **Clone the repository:**
+1. Clone the repository:
    ```bash
-   git clone https://github.com/azan-wasty/DataScience.git
+   git clone https://github.com/azan-wasty/Data-Science.git
    ```
-2. **Install requirements (if any):**
-   - Check individual notebooks/scripts for `requirements.txt` or package instructions.
-3. **Open Notebooks:**
-   - Use Jupyter Lab or Jupyter Notebook to open and run `.ipynb` files.
+2. Open any Jupyter Notebook (`.ipynb`) using Jupyter Lab or Jupyter Notebook.
 
-## Contributing
+3. Install necessary dependencies (most notebooks use commonly available libraries like `pandas`, `numpy`, `scikit-learn`, `matplotlib`, etc.).
 
-This is a personal learning repository, but suggestions and improvements are welcome! Feel free to open issues or submit pull requests.
+4. Run the notebooks/codes as per your exploration needs.
+
+## Purpose
+
+The repository aims to:
+
+- Explore and compare popular machine learning algorithms (classification, regression, clustering, etc.).
+- Analyze datasets from healthcare, education, sports, and more.
+- Serve as a playground for learning and experimenting with various data science concepts.
 
 ## License
 
-Unless otherwise specified in a particular file, this repository is released under the [MIT License](LICENSE).
+Currently, no license is specified for this project.
+
+## Author
+
+Azan Wasty  
+[GitHub Profile](https://github.com/azan-wasty)
 
 ---
-
-_Data Science stuff I've tried_
+This repo is for educational purposes and personal exploration of data science topics.
